@@ -26,3 +26,10 @@ add_theme_support( 'custom-background' );
 
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
+
+add_action( 'wp_enqueue_scripts', 'JTS_addCssFile' );
+function JTS_addCssFile()
+{
+	wp_enqueue_style( 'grid-bootstrap', get_stylesheet_directory_uri() . '/bootstrap/bootstrap-grid.min.css' );
+	wp_enqueue_style( 'custom', get_stylesheet_directory_uri() . '/custom.css' );
+}
