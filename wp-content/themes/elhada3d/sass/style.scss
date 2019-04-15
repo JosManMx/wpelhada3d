@@ -25,17 +25,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	/* END Bootstrap Class Override
 		 ========================================================================= */
 	
-		
-	
-	:root{
-		--orange: #FF7F2A;
-	}
-	
-	body,
-	.site-header,
-	.sidebar .widget,
-	.content .entry{
-		background-color: var(--orange);
-	}
 
+@import 'abstracts/variables';
+
+@import 'base/body';
+
+@import 'components/buttons';
+@import 'components/events-table';
+@import 'components/logo';
+@import 'components/suscribe-form';
 	

@@ -9,9 +9,9 @@
 </head>
 <body <?php body_class(); ?>>
   <?php get_header('wordpress'); ?>
-  <header class="Header">
+  <header class="header">
   <div class="container">
-  <div class="Logo">
+  <div class="col-md-5 logo">
       <?php
         if ( has_custom_logo() ):
           the_custom_logo();

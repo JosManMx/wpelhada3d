@@ -1,0 +1,33 @@
+.newsletter{
+  &-text{
+    margin: 0 0 14px;
+  }
+  &-title{
+    margin: 0 0 20px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: normal;
+    text-align: right;
+  }
+  &-input{
+    margin-bottom: 10px;
+    border: 0;
+    // border-radius: var(--radius);
+    width: 330px;
+    font-size: 20px;
+    padding: 5px 20px;
+    height: 34px;
+    box-sizing: border-box;
+    &::placeholder{
+      color: rgba(0,0,0,0.4);
+    }
+  }
+  &-terms{
+    display: block;
+    a{
+      color: var(--black);
+    }
+  }
+
+}

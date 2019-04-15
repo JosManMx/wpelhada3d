@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="col-md-5">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-xs-12">
 				<div class="event-table">
 					<header>
 						<div class="event-table__header">
@@ -18,7 +18,7 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
@@ -30,7 +30,7 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
@@ -42,7 +42,7 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
@@ -51,12 +51,12 @@
 					<header>
 						<div class="event-table__header -live">
 							Evento Digitales 
-						</div>
 						<div class="live-flag">
 							<div class="live-icon"></div>
 							<div class="live-text">
 								en vivo
 							</div>
+						</div>
 						</div>
 					</header>
 					<div class="event">
@@ -67,7 +67,7 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
@@ -79,7 +79,7 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
@@ -91,19 +91,19 @@
 							Plataforma: Telegram <br>
 							Cupos: 26 / 40  <br>
 						</p>
-						<a href="#" class="event-button">
+						<a href="#" class="button event-button">
 							Registrarme
 						</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-12">
+			<div class="col-xs-12">
 				<form class="newsletter-form">
 					<p class="newsletter-text">¡ey!... ¡entérate de los próximos eventos!</p>
-					<p class="newsletter-title">¡Suscríbete a mi boletín</p>
-					<input class="newsletter-input" type="text" required>
-					<button class="newsletter-button">Suscribirme</button>
-					<label>
+					<p class="newsletter-title">Suscríbete a mi boletín</p>
+					<input class="newsletter-input" type="text" required placeholder="micorreo@dominio.com">
+					<button class="button newsletter-button">Suscribirme</button>
+					<label class="newsletter-terms">
 						<input type="checkbox">
 						Acepto los 
 						<a href="#">
@@ -119,7 +119,7 @@
 <footer class="footer">
 	<div class="container">		
 		<div class="row">
-			<div class="footer-left col-12 col-md-3">
+			<div class="footer-left col-xs-12 col-md-3">
 				<img class="img" src="https://fakeimg.pl/158x86" alt="">
 				<img class="img" src="https://fakeimg.pl/158x86" alt="">
 				<div class="footer-donors">
@@ -130,7 +130,7 @@
 					<img class="donor-img" src="https://fakeimg.pl/60" alt="">
 				</div>
 			</div>
-			<div class="footer-trayectory col-12 col-md-6">
+			<div class="footer-trayectory col-xs-12 col-md-6">
 				<h3 class="footer-trayectory__title">
 					Trayectoria
 				</h3>
@@ -151,7 +151,7 @@
 					<img class="trayectory-img" src="https://fakeimg.pl/60" alt="">
 				</div>
 			</div>
-			<div class="footer-right col-12 col-md-3">
+			<div class="footer-right col-xs-12 col-md-3">
 				<div class="sponsors">
 					<h4 class="sponsors-title">Patrocinios</h4>
 					<img class="sponsor-img" src="https://fakeimg.pl/60" alt="">		
@@ -174,7 +174,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="footer-copyright  col-md-12 col-12">
+			<div class="footer-copyright  col-md-12 col-xs-12">
 				<p>Desarrollo y hosting www.redbyte.com.mx 
 					<span> | </span>
 					Todos los derechos reservados 2019</p>

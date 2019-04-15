@@ -1,0 +1,21 @@
+.button{
+  text-transform: uppercase;
+  background: var(--black);
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: var(--radius);
+  border: 0;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 2px 4px;
+  cursor: pointer;
+  transition: color var(--transition), background var(--transition);
+  &:hover{
+    color: var(--orange);
+    background: var(--white);
+  }
+  &.newsletter-button{
+    padding:  5px 14px;
+  }
+}
