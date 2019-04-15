@@ -1,0 +1,39 @@
+/* # El Hada 3d
+Theme Name: Tema El Hada 3d
+Theme URI: https://elhada3d.com  
+Description: Este es un tema personalizado y a medida para la web elhada3d.com
+Author: JosTechS  
+Author URI: http://jostech.com.ve/  
+Tags: black, orange, white, one-column, left-sidebar,  responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready  
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+
+
+
+/* =========================================================================
+   Bootstrap Class Override
+   ========================================================================= */
+ 
+	 @media screen and (min-width:768px){
+		.container{
+			max-width: 1350px;
+		}
+	}
+	 
+	/* END Bootstrap Class Override
+		 ========================================================================= */
+	
+		
+	
+	:root{
+		--orange: #FF7F2A;
+	}
+	
+	body,
+	.site-header,
+	.sidebar .widget,
+	.content .entry{
+		background-color: var(--orange);
+	}
