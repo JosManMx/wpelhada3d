@@ -1,0 +1,9 @@
+.footer{
+  margin-top: 50px;
+  padding-top: 40px;
+  background-color: var(--black);
+  color: var(--white);
+  &-copyright{
+    text-align: center;
+  }
+}

@@ -36,6 +36,19 @@ body {
   font-family: var(--main-font);
 }
 
+/* line 1, sass/layout/_footer.scss */
+.footer {
+  margin-top: 50px;
+  padding-top: 40px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* line 6, sass/layout/_footer.scss */
+.footer-copyright {
+  text-align: center;
+}
+
 /* line 1, sass/components/_buttons.scss */
 .button {
   text-transform: uppercase;
