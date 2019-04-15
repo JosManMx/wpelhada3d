@@ -8,29 +8,34 @@ Tags: black, orange, white, one-column, left-sidebar,  responsive-layout, custom
 License: GPL-2.0+  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 */
+
+
+
+
 /* =========================================================================
    Bootstrap Class Override
    ========================================================================= */
-@media screen and (min-width: 768px) {
-  /* line 20, sass/style.scss */
-  .container {
-    max-width: 1350px;
-  }
-}
-
-/* END Bootstrap Class Override
+ 
+	 @media screen and (min-width:768px){
+		.container{
+			max-width: 1350px;
+		}
+	}
+	 
+	/* END Bootstrap Class Override
 		 ========================================================================= */
-/* line 30, sass/style.scss */
-:root {
-  --orange: #FF7F2A;
-}
+	
+		
+	
+	:root{
+		--orange: #FF7F2A;
+	}
+	
+	body,
+	.site-header,
+	.sidebar .widget,
+	.content .entry{
+		background-color: var(--orange);
+	}
 
-/* line 34, sass/style.scss */
-body,
-.site-header,
-.sidebar .widget,
-.content .entry {
-  background-color: var(--orange);
-}
-
-/*# sourceMappingURL=style.css.map */
+	
