@@ -18,3 +18,5 @@ if(!function_exists('JTS_addCssFile')){
 add_action( 'wp_enqueue_scripts', 'JTS_addCssFile' );
 
 require_once( get_template_directory() .  '/inc/theme_supports.php');
+
+require_once( get_template_directory() .  '/inc/custom_type_post.php');
