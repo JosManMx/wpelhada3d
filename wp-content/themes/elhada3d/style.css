@@ -38,6 +38,11 @@ body {
 }
 
 /* line 1, sass/layout/_footer.scss */
+.widget_text {
+  list-style-type: none;
+}
+
+/* line 5, sass/layout/_footer.scss */
 .footer {
   margin-top: 50px;
   padding-top: 40px;
@@ -45,9 +50,85 @@ body {
   color: var(--white);
 }
 
-/* line 6, sass/layout/_footer.scss */
+/* line 10, sass/layout/_footer.scss */
+.footer a {
+  color: var(--white);
+}
+
+/* line 12, sass/layout/_footer.scss */
+.footer a:hover {
+  color: var(--orange);
+}
+
+/* line 16, sass/layout/_footer.scss */
+.footer-donate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* line 21, sass/layout/_footer.scss */
+.footer-donate .img {
+  width: 49%;
+}
+
+/* line 26, sass/layout/_footer.scss */
+.footer .donor-img,
+.footer .trayectory-img,
+.footer .sponsor-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: var(--white);
+}
+
+/* line 36, sass/layout/_footer.scss */
 .footer-copyright {
   text-align: center;
+}
+
+/* line 42, sass/layout/_footer.scss */
+.trayectory-title {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 49, sass/layout/_footer.scss */
+.trayectory-icons {
+  max-width: 504px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-gap: 16px 12px;
+}
+
+/* line 60, sass/layout/_footer.scss */
+.sponsors-title {
+  font-size: 18.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--white);
+}
+
+/* line 71, sass/layout/_footer.scss */
+.contact-for-events-title {
+  font-size: 18.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--white);
+}
+
+/* line 79, sass/layout/_footer.scss */
+.contact-for-events-info {
+  font-size: 19px;
 }
 
 /* line 1, sass/components/_buttons.scss */

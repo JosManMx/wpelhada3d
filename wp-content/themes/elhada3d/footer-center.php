@@ -5,7 +5,7 @@
 
   <?php if( $wp_query->have_posts() ):?> 
 
-    <h3 class="trayectory__title">
+    <h3 class="trayectory-title">
       Trayectoria
     </h3>
     <div class="trayectory-icons">
