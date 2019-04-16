@@ -14,10 +14,10 @@
 				<p>Desarrollado por 
         <a href="https://jostech.com.ve" target="_blank">
         JosTechS.com.ve</a>
-        <span class="hide-mobile"> | </span> Hosting por 
+        <span class="separator"> | </span> Hosting por 
           <a href="https://redbyte.com.mx" target="_blank">
           redbyte.com.mx</a>
-					<span class="hide-mobile"> | </span>
+					<span class="separator"> | </span>
 					Todos los derechos reservados 2019</p>
 			</div>
 		</div>

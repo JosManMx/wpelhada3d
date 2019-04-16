@@ -10,18 +10,6 @@ License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 Text Domain: jts-hada3d
 */
-/* =========================================================================
-   Bootstrap Class Override
-   ========================================================================= */
-@media screen and (min-width: 768px) {
-  /* line 22, sass/style.scss */
-  .container {
-    max-width: 1350px;
-  }
-}
-
-/* END Bootstrap Class Override
-		 ========================================================================= */
 /* line 1, sass/abstracts/_variables.scss */
 :root {
   --orange: #FF7F2A;
@@ -36,6 +24,27 @@ Text Domain: jts-hada3d
 body {
   background-color: var(--orange);
   font-family: var(--main-font);
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 7, sass/base/_body.scss */
+  body.custom-background {
+    background-image: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 2, sass/layout/_container.scss */
+  .container {
+    max-width: 1350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 7, sass/layout/_container.scss */
+  .container {
+    padding: 0 20px;
+  }
 }
 
 /* line 1, sass/layout/_footer.scss */
@@ -89,7 +98,24 @@ body {
   text-align: center;
 }
 
-/* line 42, sass/layout/_footer.scss */
+@media screen and (max-width: 1024px) {
+  /* line 5, sass/layout/_footer.scss */
+  .footer {
+    padding-top: 50px;
+  }
+  /* line 42, sass/layout/_footer.scss */
+  .footer-left, .footer-center, .footer-right {
+    margin-bottom: 40px;
+  }
+  /* line 48, sass/layout/_footer.scss */
+  .footer-copyright .separator {
+    display: block;
+    font-size: 0px;
+    height: 5px;
+  }
+}
+
+/* line 58, sass/layout/_footer.scss */
 .trayectory-title {
   text-align: center;
   margin: 0 0 20px;
@@ -98,7 +124,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 49, sass/layout/_footer.scss */
+/* line 65, sass/layout/_footer.scss */
 .trayectory-icons {
   max-width: 504px;
   margin: auto;
@@ -107,7 +133,7 @@ body {
   grid-gap: 16px 12px;
 }
 
-/* line 60, sass/layout/_footer.scss */
+/* line 76, sass/layout/_footer.scss */
 .sponsors-title {
   font-size: 18.5px;
   text-transform: uppercase;
@@ -117,7 +143,7 @@ body {
   border-bottom: 1px solid var(--white);
 }
 
-/* line 71, sass/layout/_footer.scss */
+/* line 87, sass/layout/_footer.scss */
 .contact-for-events-title {
   font-size: 18.5px;
   text-transform: uppercase;
@@ -127,7 +153,7 @@ body {
   border-bottom: 1px solid var(--white);
 }
 
-/* line 79, sass/layout/_footer.scss */
+/* line 95, sass/layout/_footer.scss */
 .contact-for-events-info {
   font-size: 19px;
 }
@@ -216,6 +242,11 @@ body {
   margin-top: 80px;
   margin-bottom: 185px;
   text-align: center;
+}
+
+/* line 5, sass/components/_logo.scss */
+.logo .custom-logo {
+  max-width: 100%;
 }
 
 /* line 2, sass/components/_suscribe-form.scss */

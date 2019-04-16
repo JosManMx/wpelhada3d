@@ -2,3 +2,9 @@ body{
   background-color: var(--orange);
   font-family: var(--main-font);
 }
+
+@media screen and (max-width: 1024px){
+  body.custom-background{
+    background-image:none !important;
+  }
+}

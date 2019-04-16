@@ -10,28 +10,12 @@ License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 Text Domain: jts-hada3d
 */
-
-
-
-
-/* =========================================================================
-   Bootstrap Class Override
-   ========================================================================= */
- 
-	 @media screen and (min-width:768px){
-		.container{
-			max-width: 1350px;
-		}
-	}
-	 
-	/* END Bootstrap Class Override
-		 ========================================================================= */
 	
-
 @import 'abstracts/variables';
 
 @import 'base/body';
 
+@import 'layout/container';
 @import 'layout/footer';
 
 @import 'components/buttons';
