@@ -18,6 +18,9 @@ if(!function_exists('jts_eh3d_setup')){
     
     //* Add support for custom background
     add_theme_support( 'custom-background' );
+
+    //* Add support for thumbnails
+    add_theme_support( 'post-thumbnails' ); 
   }
     
 }

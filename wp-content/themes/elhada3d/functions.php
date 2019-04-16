@@ -22,3 +22,5 @@ require_once( get_template_directory() .  '/inc/theme_supports.php');
 require_once( get_template_directory() .  '/inc/custom_type_post.php');
 
 require_once( get_template_directory() .  '/inc/custom_dashboard.php');
+
+require_once( get_template_directory() .  '/inc/custom_sidebars.php');
