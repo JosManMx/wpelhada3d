@@ -83,7 +83,7 @@ wp_reset_query();
 <div class="event-table">
   <header>
      <div class="event-table__header -live">
-       Evento Digitales 
+       Evento 
      <div class="live-flag">
        <div class="live-icon"></div>
        <div class="live-text">
