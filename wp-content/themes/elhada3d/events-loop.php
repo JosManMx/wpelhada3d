@@ -1,6 +1,7 @@
 <?php
   $wp_query = new WP_Query( array(
     'post_type' => 'events',
+    'posts_per_page' => -1,
     'tax_query' => array(
       array(
         'taxonomy' => 'type_event',
